@@ -6,6 +6,7 @@ class Config:
     DATA_DIR = os.path.join(ROOT_DIR, "data")
     OUTPUT_DIR = os.path.join(ROOT_DIR, "evaluation_results")
     LOG_DIR = os.path.join(ROOT_DIR, "logs")
+    MODEL_DIR = os.path.join(ROOT_DIR, "models")
     
     # Data files
     TRAIN_DATA_PATH = os.path.join(DATA_DIR, "Titanic-Dataset.csv")
@@ -52,5 +53,5 @@ class Config:
     @staticmethod
     def create_directories():
         """Create all necessary directories if they don't exist."""
-        for directory in [Config.DATA_DIR, Config.OUTPUT_DIR, Config.LOG_DIR]:
+        for directory in [Config.DATA_DIR, Config.OUTPUT_DIR, Config.LOG_DIR, Config.MODEL_DIR]:
             os.makedirs(directory, exist_ok=True)

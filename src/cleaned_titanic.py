@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import logging
 import shutil  
 import os 
+import joblib
 from config import Config
 
 #do this first otherwise it might crash
@@ -191,6 +192,27 @@ def main(data_filepath: str = None, output_dir: str = None):
         logger.error("Error in pipeline execution: %s", str(e))
         raise
 
+def save_model(model, model_name):
+    """
+    Save the trained models and scaler to disk.
+    """
+    try:
+        model_path = f"{Config.MODEL_DIR}\{model_name}.pkl"
+        joblib.dump(model, model_path)
+        logger.info(f"Model saved to {model_path}")
+        
+        # save scaler
+        scaler_path = f"{Config.MODEL_DIR}/scaler.pkl"
+        joblib.dump(scaler, scaler_path)
+        logger.info(f"Scaler saved to {scaler_path}")
+        
+    except Exception as e:
+        logger.error("Error in saving model: %s", str(e))
+        raise
+
+
 if __name__ == "__main__":   
     trained_models, evaluation_results, scaler = main()
+    save_model(trained_models['ensemble'], 'ensemble')
     logger.info("Pipeline execution completed successfully")
+    
