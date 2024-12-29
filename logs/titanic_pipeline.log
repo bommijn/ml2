@@ -1,0 +1,23 @@
+2024-12-29 16:55:16,609 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-29 16:55:16,621 - INFO - Data preprocessing completed successfully
+2024-12-29 16:55:16,621 - INFO - Starting model training
+2024-12-29 16:55:16,716 - INFO - Random Forest training completed
+2024-12-29 16:55:22,000 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-29 16:55:22,154 - INFO - Ensemble model training completed
+2024-12-29 16:55:22,154 - INFO - Starting model evaluation
+2024-12-29 16:55:22,169 - INFO - 
+Metrics for random_forest:
+2024-12-29 16:55:22,169 - INFO - Accuracy: 0.755
+2024-12-29 16:55:22,169 - INFO - Recall: 0.714
+2024-12-29 16:55:22,169 - INFO - Precision: 0.678
+2024-12-29 16:55:22,378 - INFO - 
+Metrics for xgboost:
+2024-12-29 16:55:22,378 - INFO - Accuracy: 0.776
+2024-12-29 16:55:22,379 - INFO - Recall: 0.679
+2024-12-29 16:55:22,379 - INFO - Precision: 0.731
+2024-12-29 16:55:22,508 - INFO - 
+Metrics for ensemble:
+2024-12-29 16:55:22,508 - INFO - Accuracy: 0.783
+2024-12-29 16:55:22,508 - INFO - Recall: 0.714
+2024-12-29 16:55:22,508 - INFO - Precision: 0.727
+2024-12-29 16:55:22,619 - INFO - Pipeline execution completed successfully
