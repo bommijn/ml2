@@ -23,3 +23,354 @@ Metrics for ensemble:
 2024-12-29 18:47:50,862 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
 2024-12-29 18:47:50,863 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
 2024-12-29 18:47:50,863 - INFO - Pipeline execution completed successfully
+2024-12-30 09:02:31,745 - INFO - Loading data from C:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:02:31,787 - INFO - Data preprocessing completed successfully
+2024-12-30 09:02:31,787 - INFO - Starting model training
+2024-12-30 09:02:31,957 - INFO - Random Forest training completed
+2024-12-30 09:02:39,766 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:02:40,009 - INFO - Ensemble model training completed
+2024-12-30 09:02:40,010 - INFO - Starting model evaluation
+2024-12-30 09:02:40,042 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:02:40,042 - INFO - Accuracy: 0.755
+2024-12-30 09:02:40,042 - INFO - Recall: 0.714
+2024-12-30 09:02:40,042 - INFO - Precision: 0.678
+2024-12-30 09:02:40,479 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:02:40,479 - INFO - Accuracy: 0.776
+2024-12-30 09:02:40,480 - INFO - Recall: 0.679
+2024-12-30 09:02:40,480 - INFO - Precision: 0.731
+2024-12-30 09:02:40,700 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:02:40,700 - INFO - Accuracy: 0.783
+2024-12-30 09:02:40,701 - INFO - Recall: 0.714
+2024-12-30 09:02:40,701 - INFO - Precision: 0.727
+2024-12-30 09:02:49,308 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:02:49,320 - INFO - Data preprocessing completed successfully
+2024-12-30 09:02:49,320 - INFO - Starting model training
+2024-12-30 09:02:49,414 - INFO - Random Forest training completed
+2024-12-30 09:02:54,895 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:02:55,039 - INFO - Ensemble model training completed
+2024-12-30 09:02:55,039 - INFO - Starting model evaluation
+2024-12-30 09:02:55,052 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:02:55,052 - INFO - Accuracy: 0.755
+2024-12-30 09:02:55,052 - INFO - Recall: 0.714
+2024-12-30 09:02:55,052 - INFO - Precision: 0.678
+2024-12-30 09:02:55,249 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:02:55,249 - INFO - Accuracy: 0.776
+2024-12-30 09:02:55,249 - INFO - Recall: 0.679
+2024-12-30 09:02:55,249 - INFO - Precision: 0.731
+2024-12-30 09:02:55,373 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:02:55,373 - INFO - Accuracy: 0.783
+2024-12-30 09:02:55,373 - INFO - Recall: 0.714
+2024-12-30 09:02:55,373 - INFO - Precision: 0.727
+2024-12-30 09:02:55,545 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:02:55,546 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:02:55,546 - INFO - Pipeline execution completed successfully
+2024-12-30 09:04:05,051 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:04:05,063 - INFO - Data preprocessing completed successfully
+2024-12-30 09:04:05,065 - INFO - Starting model training
+2024-12-30 09:04:05,158 - INFO - Random Forest training completed
+2024-12-30 09:04:10,454 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:04:10,599 - INFO - Ensemble model training completed
+2024-12-30 09:04:10,599 - INFO - Starting model evaluation
+2024-12-30 09:04:10,612 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:04:10,612 - INFO - Accuracy: 0.755
+2024-12-30 09:04:10,612 - INFO - Recall: 0.714
+2024-12-30 09:04:10,612 - INFO - Precision: 0.678
+2024-12-30 09:04:10,815 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:04:10,815 - INFO - Accuracy: 0.776
+2024-12-30 09:04:10,815 - INFO - Recall: 0.679
+2024-12-30 09:04:10,815 - INFO - Precision: 0.731
+2024-12-30 09:04:10,940 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:04:10,940 - INFO - Accuracy: 0.783
+2024-12-30 09:04:10,941 - INFO - Recall: 0.714
+2024-12-30 09:04:10,941 - INFO - Precision: 0.727
+2024-12-30 09:04:11,115 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:04:11,117 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:04:11,117 - INFO - Pipeline execution completed successfully
+2024-12-30 09:04:42,811 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:04:42,824 - INFO - Data preprocessing completed successfully
+2024-12-30 09:04:42,825 - INFO - Starting model training
+2024-12-30 09:04:42,917 - INFO - Random Forest training completed
+2024-12-30 09:04:47,933 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:04:48,082 - INFO - Ensemble model training completed
+2024-12-30 09:04:48,082 - INFO - Starting model evaluation
+2024-12-30 09:04:48,096 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:04:48,096 - INFO - Accuracy: 0.755
+2024-12-30 09:04:48,096 - INFO - Recall: 0.714
+2024-12-30 09:04:48,096 - INFO - Precision: 0.678
+2024-12-30 09:04:48,293 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:04:48,293 - INFO - Accuracy: 0.776
+2024-12-30 09:04:48,293 - INFO - Recall: 0.679
+2024-12-30 09:04:48,293 - INFO - Precision: 0.731
+2024-12-30 09:04:48,414 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:04:48,414 - INFO - Accuracy: 0.783
+2024-12-30 09:04:48,415 - INFO - Recall: 0.714
+2024-12-30 09:04:48,415 - INFO - Precision: 0.727
+2024-12-30 09:04:48,594 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:04:48,596 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:04:48,596 - INFO - Pipeline execution completed successfully
+2024-12-30 09:07:16,465 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:07:16,477 - INFO - Data preprocessing completed successfully
+2024-12-30 09:07:16,478 - INFO - Starting model training
+2024-12-30 09:07:16,572 - INFO - Random Forest training completed
+2024-12-30 09:07:21,558 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:07:21,705 - INFO - Ensemble model training completed
+2024-12-30 09:07:21,706 - INFO - Starting model evaluation
+2024-12-30 09:07:21,719 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:07:21,719 - INFO - Accuracy: 0.755
+2024-12-30 09:07:21,719 - INFO - Recall: 0.714
+2024-12-30 09:07:21,719 - INFO - Precision: 0.678
+2024-12-30 09:07:21,923 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:07:21,924 - INFO - Accuracy: 0.776
+2024-12-30 09:07:21,924 - INFO - Recall: 0.679
+2024-12-30 09:07:21,924 - INFO - Precision: 0.731
+2024-12-30 09:07:22,047 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:07:22,047 - INFO - Accuracy: 0.783
+2024-12-30 09:07:22,047 - INFO - Recall: 0.714
+2024-12-30 09:07:22,047 - INFO - Precision: 0.727
+2024-12-30 09:07:22,224 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:07:22,225 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:07:22,225 - INFO - Pipeline execution completed successfully
+2024-12-30 09:07:58,896 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:07:58,909 - INFO - Data preprocessing completed successfully
+2024-12-30 09:07:58,910 - INFO - Starting model training
+2024-12-30 09:07:59,002 - INFO - Random Forest training completed
+2024-12-30 09:08:04,493 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:08:04,641 - INFO - Ensemble model training completed
+2024-12-30 09:08:04,641 - INFO - Starting model evaluation
+2024-12-30 09:08:04,660 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:08:04,661 - INFO - Accuracy: 0.755
+2024-12-30 09:08:04,661 - INFO - Recall: 0.714
+2024-12-30 09:08:04,661 - INFO - Precision: 0.678
+2024-12-30 09:08:04,877 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:08:04,877 - INFO - Accuracy: 0.776
+2024-12-30 09:08:04,877 - INFO - Recall: 0.679
+2024-12-30 09:08:04,877 - INFO - Precision: 0.731
+2024-12-30 09:08:05,009 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:08:05,009 - INFO - Accuracy: 0.783
+2024-12-30 09:08:05,009 - INFO - Recall: 0.714
+2024-12-30 09:08:05,010 - INFO - Precision: 0.727
+2024-12-30 09:08:05,193 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:08:05,195 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:08:05,195 - INFO - Pipeline execution completed successfully
+2024-12-30 09:08:27,288 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:08:27,300 - INFO - Data preprocessing completed successfully
+2024-12-30 09:08:27,302 - INFO - Starting model training
+2024-12-30 09:08:27,393 - INFO - Random Forest training completed
+2024-12-30 09:08:32,516 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:08:32,662 - INFO - Ensemble model training completed
+2024-12-30 09:08:32,663 - INFO - Starting model evaluation
+2024-12-30 09:08:32,675 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:08:32,676 - INFO - Accuracy: 0.755
+2024-12-30 09:08:32,676 - INFO - Recall: 0.714
+2024-12-30 09:08:32,676 - INFO - Precision: 0.678
+2024-12-30 09:08:32,875 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:08:32,875 - INFO - Accuracy: 0.776
+2024-12-30 09:08:32,875 - INFO - Recall: 0.679
+2024-12-30 09:08:32,876 - INFO - Precision: 0.731
+2024-12-30 09:08:32,999 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:08:32,999 - INFO - Accuracy: 0.783
+2024-12-30 09:08:32,999 - INFO - Recall: 0.714
+2024-12-30 09:08:33,000 - INFO - Precision: 0.727
+2024-12-30 09:08:33,173 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:08:33,175 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:08:33,175 - INFO - Pipeline execution completed successfully
+2024-12-30 09:30:56,463 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:30:56,473 - ERROR - Error in pipeline execution: type object 'Config' has no attribute 'NUMERIC_FEATURES'
+2024-12-30 09:31:04,455 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:31:04,467 - ERROR - Error in pipeline execution: Length of values (714) does not match length of index (571)
+2024-12-30 09:31:39,087 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:31:39,101 - INFO - Data preprocessing completed successfully
+2024-12-30 09:31:39,109 - INFO - Starting model training
+2024-12-30 09:31:39,202 - INFO - Random Forest training completed
+2024-12-30 09:31:44,482 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:31:44,633 - INFO - Ensemble model training completed
+2024-12-30 09:31:44,633 - INFO - Starting model evaluation
+2024-12-30 09:31:44,647 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:31:44,647 - INFO - Accuracy: 0.755
+2024-12-30 09:31:44,647 - INFO - Recall: 0.714
+2024-12-30 09:31:44,647 - INFO - Precision: 0.678
+2024-12-30 09:31:44,851 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:31:44,851 - INFO - Accuracy: 0.776
+2024-12-30 09:31:44,851 - INFO - Recall: 0.679
+2024-12-30 09:31:44,851 - INFO - Precision: 0.731
+2024-12-30 09:31:44,976 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:31:44,976 - INFO - Accuracy: 0.783
+2024-12-30 09:31:44,976 - INFO - Recall: 0.714
+2024-12-30 09:31:44,976 - INFO - Precision: 0.727
+2024-12-30 09:31:45,152 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:31:45,153 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:31:45,153 - INFO - Pipeline execution completed successfully
+2024-12-30 09:33:14,835 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:33:14,849 - INFO - Data preprocessing completed successfully
+2024-12-30 09:33:14,856 - INFO - Starting model training
+2024-12-30 09:33:14,947 - INFO - Random Forest training completed
+2024-12-30 09:33:20,261 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:33:20,413 - INFO - Ensemble model training completed
+2024-12-30 09:33:20,413 - INFO - Starting model evaluation
+2024-12-30 09:33:20,427 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:33:20,428 - INFO - Accuracy: 0.755
+2024-12-30 09:33:20,428 - INFO - Recall: 0.714
+2024-12-30 09:33:20,428 - INFO - Precision: 0.678
+2024-12-30 09:33:20,630 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:33:20,630 - INFO - Accuracy: 0.776
+2024-12-30 09:33:20,630 - INFO - Recall: 0.679
+2024-12-30 09:33:20,630 - INFO - Precision: 0.731
+2024-12-30 09:33:20,757 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:33:20,758 - INFO - Accuracy: 0.783
+2024-12-30 09:33:20,758 - INFO - Recall: 0.714
+2024-12-30 09:33:20,758 - INFO - Precision: 0.727
+2024-12-30 09:33:20,934 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:33:20,936 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:33:20,936 - INFO - Pipeline execution completed successfully
+2024-12-30 09:33:57,715 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:33:57,727 - INFO - Data preprocessing completed successfully
+2024-12-30 09:33:57,735 - INFO - Starting model training
+2024-12-30 09:33:57,828 - INFO - Random Forest training completed
+2024-12-30 09:34:03,264 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:34:03,414 - INFO - Ensemble model training completed
+2024-12-30 09:34:03,414 - INFO - Starting model evaluation
+2024-12-30 09:34:03,430 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:34:03,430 - INFO - Accuracy: 0.755
+2024-12-30 09:34:03,430 - INFO - Recall: 0.714
+2024-12-30 09:34:03,430 - INFO - Precision: 0.678
+2024-12-30 09:34:03,639 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:34:03,639 - INFO - Accuracy: 0.776
+2024-12-30 09:34:03,639 - INFO - Recall: 0.679
+2024-12-30 09:34:03,639 - INFO - Precision: 0.731
+2024-12-30 09:34:03,761 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:34:03,761 - INFO - Accuracy: 0.783
+2024-12-30 09:34:03,761 - INFO - Recall: 0.714
+2024-12-30 09:34:03,761 - INFO - Precision: 0.727
+2024-12-30 09:34:03,936 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:34:03,937 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:34:03,937 - INFO - Pipeline execution completed successfully
+2024-12-30 09:34:57,915 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:34:57,929 - INFO - Data preprocessing completed successfully
+2024-12-30 09:34:57,936 - INFO - Starting model training
+2024-12-30 09:34:58,027 - INFO - Random Forest training completed
+2024-12-30 09:35:03,443 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:35:03,592 - INFO - Ensemble model training completed
+2024-12-30 09:35:03,592 - INFO - Starting model evaluation
+2024-12-30 09:35:03,606 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:35:03,606 - INFO - Accuracy: 0.755
+2024-12-30 09:35:03,606 - INFO - Recall: 0.714
+2024-12-30 09:35:03,606 - INFO - Precision: 0.678
+2024-12-30 09:35:03,809 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:35:03,809 - INFO - Accuracy: 0.776
+2024-12-30 09:35:03,809 - INFO - Recall: 0.679
+2024-12-30 09:35:03,809 - INFO - Precision: 0.731
+2024-12-30 09:35:03,932 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:35:03,933 - INFO - Accuracy: 0.783
+2024-12-30 09:35:03,933 - INFO - Recall: 0.714
+2024-12-30 09:35:03,933 - INFO - Precision: 0.727
+2024-12-30 09:35:04,105 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:35:04,106 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:35:04,107 - INFO - Pipeline execution completed successfully
+2024-12-30 09:35:57,732 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:35:57,745 - INFO - Data preprocessing completed successfully
+2024-12-30 09:35:57,753 - INFO - Starting model training
+2024-12-30 09:35:57,858 - INFO - Random Forest training completed
+2024-12-30 09:36:03,830 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:36:03,987 - INFO - Ensemble model training completed
+2024-12-30 09:36:03,987 - INFO - Starting model evaluation
+2024-12-30 09:36:04,002 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:36:04,002 - INFO - Accuracy: 0.755
+2024-12-30 09:36:04,002 - INFO - Recall: 0.714
+2024-12-30 09:36:04,003 - INFO - Precision: 0.678
+2024-12-30 09:36:04,211 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:36:04,211 - INFO - Accuracy: 0.776
+2024-12-30 09:36:04,211 - INFO - Recall: 0.679
+2024-12-30 09:36:04,212 - INFO - Precision: 0.731
+2024-12-30 09:36:04,338 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:36:04,339 - INFO - Accuracy: 0.783
+2024-12-30 09:36:04,339 - INFO - Recall: 0.714
+2024-12-30 09:36:04,339 - INFO - Precision: 0.727
+2024-12-30 09:36:04,521 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:36:04,522 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:36:04,522 - INFO - Pipeline execution completed successfully
+2024-12-30 09:36:32,816 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 09:36:32,829 - INFO - Data preprocessing completed successfully
+2024-12-30 09:36:32,837 - INFO - Starting model training
+2024-12-30 09:36:32,934 - INFO - Random Forest training completed
+2024-12-30 09:36:38,605 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 09:36:38,760 - INFO - Ensemble model training completed
+2024-12-30 09:36:38,760 - INFO - Starting model evaluation
+2024-12-30 09:36:38,774 - INFO - 
+Metrics for random_forest:
+2024-12-30 09:36:38,774 - INFO - Accuracy: 0.755
+2024-12-30 09:36:38,775 - INFO - Recall: 0.714
+2024-12-30 09:36:38,775 - INFO - Precision: 0.678
+2024-12-30 09:36:38,984 - INFO - 
+Metrics for xgboost:
+2024-12-30 09:36:38,984 - INFO - Accuracy: 0.776
+2024-12-30 09:36:38,984 - INFO - Recall: 0.679
+2024-12-30 09:36:38,984 - INFO - Precision: 0.731
+2024-12-30 09:36:39,113 - INFO - 
+Metrics for ensemble:
+2024-12-30 09:36:39,113 - INFO - Accuracy: 0.783
+2024-12-30 09:36:39,113 - INFO - Recall: 0.714
+2024-12-30 09:36:39,113 - INFO - Precision: 0.727
+2024-12-30 09:36:39,296 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\ensemble.pkl
+2024-12-30 09:36:39,297 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 09:36:39,297 - INFO - Pipeline execution completed successfully
+2024-12-30 10:16:13,191 - INFO - Loading data from c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\data\Titanic-Dataset.csv
+2024-12-30 10:16:13,205 - INFO - Data preprocessing completed successfully
+2024-12-30 10:16:13,213 - INFO - Starting model training
+2024-12-30 10:16:13,309 - INFO - Random Forest training completed
+2024-12-30 10:16:18,888 - INFO - XGBoost training completed with best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2024-12-30 10:16:19,050 - INFO - Ensemble model training completed
+2024-12-30 10:16:19,050 - INFO - Starting model evaluation
+2024-12-30 10:16:19,066 - INFO - 
+Metrics for random_forest:
+2024-12-30 10:16:19,067 - INFO - Accuracy: 0.755
+2024-12-30 10:16:19,067 - INFO - Recall: 0.714
+2024-12-30 10:16:19,067 - INFO - Precision: 0.678
+2024-12-30 10:16:19,286 - INFO - 
+Metrics for xgboost:
+2024-12-30 10:16:19,286 - INFO - Accuracy: 0.776
+2024-12-30 10:16:19,287 - INFO - Recall: 0.679
+2024-12-30 10:16:19,287 - INFO - Precision: 0.731
+2024-12-30 10:16:19,417 - INFO - 
+Metrics for ensemble:
+2024-12-30 10:16:19,417 - INFO - Accuracy: 0.783
+2024-12-30 10:16:19,418 - INFO - Recall: 0.714
+2024-12-30 10:16:19,418 - INFO - Precision: 0.727
+2024-12-30 10:16:19,556 - INFO - Model saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models\random_forest.pkl
+2024-12-30 10:16:19,558 - INFO - Scaler saved to c:\Users\sieme\OneDrive\bachelor ai jaar 2\MLOps\ml2\models/scaler.pkl
+2024-12-30 10:16:19,558 - INFO - Pipeline execution completed successfully

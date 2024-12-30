@@ -7,8 +7,6 @@ from sklearn.metrics import accuracy_score, recall_score, precision_score, confu
 from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 import logging
-import shutil  
-import os 
 import joblib
 from config import Config
 
@@ -59,23 +57,23 @@ def preprocess_data(data: pd.DataFrame, test_size: float = None, random_state: i
             
     # define features from config
     features = Config.FEATURES
-            
+
     #split features and target
     X = data[features]
     y = data['Survived']
-            
+             
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=test_size, random_state=random_state
     )
-            
-    #scale features
+
+    # scale the data
     scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-            
+    X_train[Config.NUMERIC_FEATURES] = scaler.fit_transform(X_train[Config.NUMERIC_FEATURES])
+    X_test[Config.NUMERIC_FEATURES] = scaler.transform(X_test[Config.NUMERIC_FEATURES]) 
+    
     logger.info("Data preprocessing completed successfully")
-    return X_train_scaled, X_test_scaled, y_train, y_test, scaler
+    return X_train, X_test, y_train, y_test, scaler
 
 def train_models(X_train: np.ndarray, y_train: np.ndarray, random_state: int = None):
     """
@@ -125,7 +123,7 @@ def train_models(X_train: np.ndarray, y_train: np.ndarray, random_state: int = N
 
 def evaluate_models(models: dict, X_test: np.ndarray, y_test: np.ndarray, output_dir: str = None):
     """
-    Evaluate trained models and optionally save visualization results.
+    Evaluate trained models and save visualization results.
     """
     try:
         if output_dir is None:
@@ -213,6 +211,6 @@ def save_model(model, model_name):
 
 if __name__ == "__main__":   
     trained_models, evaluation_results, scaler = main()
-    save_model(trained_models['ensemble'], 'ensemble')
+    save_model(trained_models['random_forest'], 'random_forest')
     logger.info("Pipeline execution completed successfully")
     

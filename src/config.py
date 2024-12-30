@@ -38,6 +38,7 @@ class Config:
         'Ticket',
         'Cabin'
     ]
+    NUMERIC_FEATURES = ['Pclass', 'Age', 'Fare']
     
     # Model hyperparameters for grid search
     XGB_PARAMS = {
